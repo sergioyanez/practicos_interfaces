@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/styles.css">
+		<title>TP 1 - Template</title>
+	</head>
+	<body>
+        <header>
+            <h1>Interfaces de Usuario e Interacción</h1>
+            <h1>TUDAI - UNICEN 2021</h1>
+            <h2>Trabajo Práctico 1</h2>
+        </header>
+    
+        <div id="misDatos">
+            <p>Alumno: Yañez Sergio Marcelo</p>
+            <p>Mail: sergiomyanez02@gmail.com</p>
+            <p>DNI: 23322529</p>
+            <p>LU: 250018</p>
+        </div>
+        
+        <figure>
+            <figcaption>Punto 1: Repaso Javascript: Definir una matriz de 100 elementos x 100 elementos y completarla con valores enteros random, y resuelva los siguientes incisos: 
+
+                <p>a) Escribir una función que retorne el valor máximo de toda la matriz </p>
+                <p>b) Escribir una función que retorne el valor máximo contenido en las filas pares y el valor mínimo en las filas impares </p>
+                <p>c) Calcular el valor promedio de cada fila y guardarlos en un arreglo.</p> 
+                </figcaption>
+            <table id="showMatrix"></table>
+            <div id="results"></div>
+        </figure>	
+
+        <figure>
+            <figcaption>Punto 2: Pintar una región rectangular de un color utilizando el Contexto de HTML5.</figcaption>
+            <canvas id="myCanvas"width="300" height="150" ></canvas>           
+        </figure>
+
+        <figure>
+            <figcaption>Punto 2-bis: Armar una pirámide</figcaption>
+            <canvas id="myCanvas8"width="500" height="300" ></canvas>
+        </figure>
+        
+        <figure>
+            <figcaption>Punto 3: <p>Pintar una región rectangular de un color utilizando la estructura de ImageData.</p> </figcaption>
+            <canvas id="myCanvas2"width="300" height="150" ></canvas>
+        </figure>  
+        
+        <figure>
+            <figcaption>Punto 4 manual:<p>Especificar la función para pintar un cuadrado utilizando un gradiente de la siguiente forma: 
+                de negro a blanco, de arriba hacia abajo</p> 	.</figcaption>
+            <canvas id="myCanvas11"width="300" height="150" ></canvas>
+        </figure> 
+
+        <figure>
+            <figcaption>Punto 4 utilizando  createLinearGradient( )</figcaption>
+            <canvas id="myCanvas3"width="300" height="150" ></canvas>
+        </figure>        
+        
+        <figure>
+            <figcaption>Punto 5  gradiente manual<p>Pintar un rectángulo en pantalla, utilizando tres colores en un gradiente: De negro a amarillo en la primera mitad del ancho del rectángulo, y de amarillo a rojo, en la segunda mitad. Por otro lado, en Y el degrade se mantiene constante. </p></figcaption>
+            <canvas id="myCanvas9"width="300" height="150" ></canvas>
+        </figure>
+
+        <figure>
+            <figcaption>Punto 5  utilizando  createLinearGradient( )</figcaption>
+            <canvas id="myCanvas4"width="300" height="150" ></canvas>
+        </figure>
+
+
+        <figure>
+            <figcaption>Punto 6  manual(4 colores ):<p>Pintar un rectángulo en pantalla, utilizando tres o cuatro colores en un gradiente. Los tres colores deben ser armonías tonales. Puede ser en el eje X o Y.
+            </p></figcaption>
+            <canvas id="myCanvas10"width="400" height="200" ></canvas>
+        </figure>
+
+        <figure>
+            <figcaption>Punto 6  utilizando  createLinearGradient( )</figcaption>
+            <canvas id="myCanvas5"width="400" height="200" ></canvas>
+        </figure>
+
+        <figure>
+            <figcaption>Punto 7-a: Cargar una Imagen desde disco o URL 
+                Dibujar la imagen dentro del canvas 
+                </figcaption>
+            <canvas id="myCanvas6" width="500" height="250"></canvas>
+        </figure>
+
+        <figure>
+            <figcaption>Punto 7-b: Implementar una función que aplique el filtro de escala de grises y muestre el resultado en el canvas</figcaption>
+           
+            <canvas id="myCanvas7"width="500" height="250" ></canvas>
+            <button id = "grey">Filtro de grises</button>
+        </figure>
+
+        <figure>
+            <figcaption>Implementar una función que aplique el filtro negativo y muestre el resultado en el canvas</figcaption>
+           
+            <canvas id="myCanvasNeg"width="500" height="250" ></canvas>
+            <button id = "negative">Aplicar filtro Negativo </button>
+        </figure>
+
+        <figure>
+            <figcaption>Implementar una función que aplique el filtro sepia y muestre el resultado en el canvas</figcaption>
+           
+            <canvas id="myCanvasSepia"width="500" height="250" ></canvas>
+            <button id = "sepia">Aplicar filtro Sepia</button>
+        </figure>
+
+        <figure>
+            <figcaption>Implementar una función que aplique el filtro de binarizacion y muestre el resultado en el canvas</figcaption>
+           
+            <canvas id="myCanvasBin"width="500" height="250" ></canvas>
+            <button id = "binarizacion">Aplicar filtro Binarizacion</button>
+        </figure>
+        
+        <figure>
+            <figcaption>Implementar una función que aplique el filtro de brillo y muestre el resultado en el canvas</figcaption>           
+            <canvas id="myCanvasBrillo"width="500" height="250" ></canvas>
+            <button id = "brillo1">Aplicar más brillo</button>          
+        </figure>
+
+        <figure>
+            <figcaption>Implementar una función que aplique el filtro de sobel y muestre el resultado en el canvas</figcaption>           
+            <canvas id="myCanvasSobel1"width="500" height="250" ></canvas>
+            <button id = "sobel">Deteccion de bordes</button>          
+        </figure>
+
+        <figure>
+            <figcaption>Implementar una función que aplique el filtro de sobel horizontal y muestre el resultado en el canvas</figcaption>           
+            <canvas id="myCanvasSobel2"width="500" height="250" ></canvas>
+            <button id = "sobel-horizontal">Deteccion de bordes horizontal</button>          
+        </figure>
+
+        <figure>
+            <figcaption>Implementar una función que aplique el filtro de sobel vertical y muestre el resultado en el canvas</figcaption>           
+            <canvas id="myCanvasSobel3"width="500" height="250" ></canvas>
+            <button id = "sobel-vertical">Deteccion de bordes vertical</button>          
+        </figure>
+    <script src ="js/index.js"></script>
+	</body>
+	
+</html>
